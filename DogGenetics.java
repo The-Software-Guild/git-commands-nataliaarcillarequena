@@ -23,7 +23,9 @@ public class DogGenetics {
 
         Random random = new Random();
 
+
         //populating array with random doubles between 0 and 1
+        //populating array with random doubles between 0 & 1
         for (int i = 0; i < numbers.length; i++ ){
             numbers[i] = random.nextDouble();
         }
